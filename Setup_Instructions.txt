@@ -1,0 +1,17 @@
+
+Instructions for the setup: 
+---------------------------
+
+# Create a virtual-environment
+python3 -m venv Q_workshop
+
+
+# Acivate the v-env and install jupyter
+source Q_workshop/bin/activate
+pip install --upgrade jupyter notebook
+
+
+# Go to the workshop directory and install required packages
+cd /path/to/ML-notebooks/
+pip install -r requirements.txt
+
